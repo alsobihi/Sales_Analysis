@@ -111,13 +111,79 @@ SELECT count(*) FROM `hrkpi-1.Sales_Analysis.Sales2019_part2`
 
 #### قم بحساب عدد الصفوف الفارغة `NULL`
 
+````
+SELECT
+  COUNT(*)
+FROM
+  `hrkpi-1.Sales_Analysis.Sales2019_part2`
+WHERE
+  Order_ID IS NULL
+  AND Product IS NULL
+  AND Quantity IS NULL
+  AND Price_Each IS NULL
+  AND Order_Date IS NULL
+  AND Purchase_Address IS NULL
+````
+
+````
+545
+````
+
+
+
 #### قم بحذف الصفوف الفارغة
 بعد الحدذف تأكد من ان عدد الصفوف مطابق للصفوف الفارغة واجمالي عدد الصفوف الحالي 
+
+````
+DELETE
+FROM
+  `hrkpi-1.Sales_Analysis.Sales2019_part2`
+WHERE
+  Order_ID IS NULL
+  AND Product IS NULL
+  AND Quantity IS NULL
+  AND Price_Each IS NULL
+  AND Order_Date IS NULL
+  AND Purchase_Address IS NULL
+````
+
+````
+545 Rows Deleted
+````
+
+
 
 
 #### قم بحساب الصفوف المتكررة
 
+````
+SELECT COUNT(*)
+FROM
+  `hrkpi-1.Sales_Analysis.Sales2019_part2`
+WHERE Order_ID = 'Order ID'
+````
+````
+366
+````
+
+
+
+
+
 #### قم بحذف الصفوف المتكررة
+
+````
+DELETE
+FROM
+  `hrkpi-1.Sales_Analysis.Sales2019_part2`
+WHERE Order_ID = 'Order ID'
+````
+
+````
+366 Rows Deleted
+````
+
+
 
 ### الخطوة الثالثة تحويل البيانات
 
