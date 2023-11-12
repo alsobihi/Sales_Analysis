@@ -33,6 +33,32 @@
 #### دمج الجداول (جميع الأشهر)
 دمج جميع الجداول بإستخدام union وحفظ البيانات بجدول جديد بأسم بـ `Sales_2019`
 
+````
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_April_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_August_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_December_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_February_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_January_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_July_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_June_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_March_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_May_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_November_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_October_2019` 
+UNION ALL
+SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_September_2019` 
+````
+
 
 #### إعادة تسمية العواميد 
 
@@ -77,7 +103,7 @@
 #### أضف عامود جديد بأسم  `City` وضع فيه أسم مدينة العميل
 
 
-
+#### أضرب عامود الكمية مع عامود سعر الحبة ليظهر الإجمالي
 
 
 
