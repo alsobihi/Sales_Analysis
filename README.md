@@ -30,6 +30,10 @@
     - Purchase Address
 ````
 
+
+
+
+
 #### دمج الجداول (جميع الأشهر)
 دمج جميع الجداول بإستخدام union وحفظ البيانات بجدول جديد بأسم بـ `Sales_2019`
 
@@ -75,6 +79,19 @@ SELECT * FROM `hrkpi-1.Sales_Analysis.Sales_September_2019`
     - Purchase_Address
 ````
 
+
+````
+SELECT
+  string_field_0 AS Order_ID,
+  string_field_1 AS Product,
+  string_field_2 AS Quantity,
+  string_field_3 AS Price_Each,
+  string_field_4 AS Order_Date,
+  string_field_5 AS Purchase_Address
+FROM
+  `hrkpi-1.Sales_Analysis.Sales_2019`
+
+````
 
 ### الخطوة الثانية تنظيف البيانات
 
