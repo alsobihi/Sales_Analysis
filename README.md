@@ -222,9 +222,18 @@ FROM `hrkpi-1.Sales_Analysis.Sales_2019_part2_withmonth`
 
 #### أضف عامود جديد بأسم  `Country` وضع فيه أسم الدولة USA
 
+````
+SELECT 
+* ,
+ CONCAT('USA') AS Country
+FROM `hrkpi-1.Sales_Analysis.Sales_2019_part2_withmonth` 
+````
 
 #### أضرب عامود الكمية مع عامود سعر الحبة ليظهر الإجمالي
 
+````
+CAST(Quantity AS FLOAT64) * CAST(Price_Each AS FLOAT64) AS Total_Price
+````
 
 
 
