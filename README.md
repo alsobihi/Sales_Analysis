@@ -236,5 +236,21 @@ CAST(Quantity AS FLOAT64) * CAST(Price_Each AS FLOAT64) AS Total_Price
 ````
 
 
+#### ترتيب البيانات النهائي
+
+````
+    - Order_ID 
+    - Product 
+    - Quantity 
+    - Price_Each 
+    - Order_Date 
+    - Purchase_Address
+    - Month
+    - Country
+    - City_Name
+    - Total_Price
+
+````
+
 
 
