@@ -209,11 +209,18 @@ FROM `hrkpi-1.Sales_Analysis.Sales2019_part2`
 
 
 
-#### أضف عامود جديد بأسم  `Country` وضع فيه أسم الدولة USA
-
-
-
 #### أضف عامود جديد بأسم  `City` وضع فيه أسم مدينة العميل
+
+````
+SELECT 
+* ,
+REGEXP_EXTRACT(Purchase_Address, ',s*(.*?),') AS city_name
+
+FROM `hrkpi-1.Sales_Analysis.Sales_2019_part2_withmonth` 
+````
+
+
+#### أضف عامود جديد بأسم  `Country` وضع فيه أسم الدولة USA
 
 
 #### أضرب عامود الكمية مع عامود سعر الحبة ليظهر الإجمالي
