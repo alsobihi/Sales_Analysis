@@ -190,9 +190,19 @@ WHERE Order_ID = 'Order ID'
 
 #### أضف عامود جديد بأسم `Month` وضع أسم الشهر المناسب في كل صف
 
+````
+
+SELECT 
+*,
+EXTRACT (MONTH FROM date(PARSE_DATETIME('%m/%d/%y %H:%M', Order_Date)) ) AS Month
+ 
 
 
 
+--- Order_Date
+FROM `hrkpi-1.Sales_Analysis.Sales2019_part2`
+
+````
 
 
 
