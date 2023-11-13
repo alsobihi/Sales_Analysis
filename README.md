@@ -278,3 +278,31 @@ FROM
 34492035.969941095
 ````
 
+
+
+
+### النتيجة
+
+
+``
+SELECT
+  *
+FROM
+  `hrkpi-1.Sales_Analysis.Sales_2019_part3`
+LIMIT
+  25
+``
+
+
+| **Order_ID** | **Product** | **Quantity** | **Price_Each** | **Order_Date** | **Purchase_Address**                     | **Month** | **Country** | **city_name** | **Total_Price** |
+|--------------|-------------|--------------|----------------|----------------|------------------------------------------|-----------|-------------|---------------|-----------------|
+| 143869       | iPhone      | 1            | 700            | 01/11/19 16:17 | "481 Center St, San Francisco, CA 94016" | 1         | USA         | San Francisco | 700.0           |
+| 148231       | iPhone      | 1            | 700            | 01/15/19 20:43 | "204 2nd St, Boston, MA 02215"           | 1         | USA         | Boston        | 700.0           |
+| 145672       | iPhone      | 1            | 700            | 01/18/19 18:19 | "465 12th St, San Francisco, CA 94016"   | 1         | USA         | San Francisco | 700.0           |
+| 145911       | iPhone      | 1            | 700            | 01/27/19 10:14 | "347 Maple St, Seattle, WA 98101"        | 1         | USA         | Seattle       | 700.0           |
+| 149886       | iPhone      | 1            | 700            | 01/11/19 16:57 | "404 1st St, New York City, NY 10001"    | 1         | USA         | New York City | 700.0           |
+| 143432       | iPhone      | 1            | 700            | 01/06/19 00:44 | "794 South St, New York City, NY 10001"  | 1         | USA         | New York City | 700.0           |
+| 142010       | iPhone      | 1            | 700            | 01/04/19 06:28 | "511 2nd St, Portland, OR 97035"         | 1         | USA         | Portland      | 700.0           |
+| 141437       | iPhone      | 1            | 700            | 01/10/19 15:40 | "377 Meadow St, New York City, NY 10001" | 1         | USA         | New York City | 700.0           |
+| 141888       | iPhone      | 1            | 700            | 01/09/19 11:01 | "17 Spruce St, Los Angeles, CA 90001"    | 1         | USA         | Los Angeles   | 700.0           |
+| 143694       | iPhone      | 1            | 700            | 01/03/19 19:20 | "265 6th St, New York City, NY 10001"    | 1         | USA         | New York City | 700.0           |
