@@ -180,7 +180,7 @@ WHERE Order_ID = 'Order ID'
 ````
 
 ````
-366 Rows Deleted
+367 Rows Deleted
 ````
 
 
@@ -189,6 +189,14 @@ WHERE Order_ID = 'Order ID'
 
 
 #### أضف عامود جديد بأسم `Month` وضع أسم الشهر المناسب في كل صف
+
+
+
+
+
+
+
+
 
 
 #### أضف عامود جديد بأسم  `Country` وضع فيه أسم الدولة USA
