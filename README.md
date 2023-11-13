@@ -253,4 +253,28 @@ CAST(Quantity AS FLOAT64) * CAST(Price_Each AS FLOAT64) AS Total_Price
 ````
 
 
+### معلومات عامة عن البيانات
+
+#### عدد الصفوف في الجدول
+
+````
+SELECT COUNT(*) AS Total_Rows FROM `hrkpi-1.Sales_Analysis.Sales_2019_part3` 
+````
+
+````
+185950
+````
+
+#### اجمالي المبيعات
+
+````
+SELECT
+  SUM(Total_Price) AS Total_sales
+FROM
+  `hrkpi-1.Sales_Analysis.Sales_2019_part3`
+````
+
+````
+34492035.969941095
+````
 
