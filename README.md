@@ -1,4 +1,21 @@
 # Sales_Analysis
+
+
+> **Note**
+> لمشاهدة النتيجة النهائية قم بالزيارة هنا
+> * LookerStudio  [Sales Report Page](https://lookerstudio.google.com/embed/reporting/8df40b83-ed36-4355-a702-f692de789727/page/BaCiD)
+
+
+![Sales Report](Sales_Report.png)
+
+
+
+
+
+
+
+
+
 ## تنظيف بيانات المبيعات 
 مصدر البيانات: [https://www.kaggle.com/datasets/serdarsozturk/salesanalysis](https://www.kaggle.com/datasets/serdarsozturk/salesanalysis)
 
@@ -309,12 +326,4 @@ LIMIT
 
 
 
-
-
-> **Note**
-> لمشاهدة النتيجة النهائية قم بالزيارة هنا
-> * LookerStudio  [Sales Report Page](https://lookerstudio.google.com/embed/reporting/8df40b83-ed36-4355-a702-f692de789727/page/BaCiD)
-
-
-![Sales Report](Sales_Report.png)
 
