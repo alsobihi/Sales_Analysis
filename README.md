@@ -306,3 +306,15 @@ LIMIT
 | 141437       | iPhone      | 1            | 700            | 01/10/19 15:40 | "377 Meadow St, New York City, NY 10001" | 1         | USA         | New York City | 700.0           |
 | 141888       | iPhone      | 1            | 700            | 01/09/19 11:01 | "17 Spruce St, Los Angeles, CA 90001"    | 1         | USA         | Los Angeles   | 700.0           |
 | 143694       | iPhone      | 1            | 700            | 01/03/19 19:20 | "265 6th St, New York City, NY 10001"    | 1         | USA         | New York City | 700.0           |
+
+
+
+
+
+> **Note**
+> لمشاهدة النتيجة النهائية قم بالزيارة هنا
+> * LookerStudio  [Sales Report Page](https://lookerstudio.google.com/embed/reporting/8df40b83-ed36-4355-a702-f692de789727/page/BaCiD)
+
+
+
+
