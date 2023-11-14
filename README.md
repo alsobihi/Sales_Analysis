@@ -316,5 +316,5 @@ LIMIT
 > * LookerStudio  [Sales Report Page](https://lookerstudio.google.com/embed/reporting/8df40b83-ed36-4355-a702-f692de789727/page/BaCiD)
 
 
-[Sales Report](Sales_Report.png)
+![Sales Report](Sales_Report.png)
 
